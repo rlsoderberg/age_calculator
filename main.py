@@ -1,4 +1,4 @@
-print(">>>calculate when the 'half-your-age-plus-seven' rule becomes valid for a pair of humans")
+print("'half-your-age-plus-seven' calculator")
 
 current_year = int(input('enter current year: '))
 younger_birth = int(input('enter younger birth year: '))
@@ -12,6 +12,6 @@ for x in range (0,50):
     if ((older_age - younger_age) + 7) <= younger_age:
         valid_years.append(current_year)
 
-print('rule becomes valid for these two humans in the year ' + str(valid_years[1]))
+print('rule becomes valid in ' + str(valid_years[1]))
 
     
