@@ -1,7 +1,43 @@
-current_year = 2025
-younger_birth = int(input('enter younger birth year: '))
-older_birth = int(input('enter older birth year: '))
 valid_years = []
+
+def process_input():
+    current_year = int(input('enter current year: '))
+    while True:
+        try:
+            current_year = int(input('enter current year: '))
+        except EOFError:
+            return
+        a = line.find(current_year)             
+        if a != -1:
+            print(line)
+        if line=='':
+            return
+
+def process_input():
+    younger_birth = int(input('enter younger birth year: '))
+    while True:
+        try:
+            younger_birth = int(input('enter younger birth year: '))
+        except EOFError:
+            return
+        a = line.find(younger_birth)             
+        if a != -1:
+            print(line)
+        if line=='':
+            return
+
+def process_input():
+    older_birth = int(input('enter older birth year: '))
+    while True:
+        try:
+            older_birth = int(input('enter older birth year: '))
+        except EOFError:
+            return
+        a = line.find(older_birth)             
+        if a != -1:
+            print(line)
+        if line=='':
+            return
 
 
 for x in range (0,50):
