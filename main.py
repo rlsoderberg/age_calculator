@@ -10,5 +10,7 @@ for x in range (0,50):
     if ((older_age - younger_age) + 7) <= younger_age:
         valid_years.append(current_year)
 
+print('valid years begin ' + str(valid_years[1]))
 
-print('list of valid years: ' + str(valid_years))
+
+    
