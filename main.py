@@ -9,7 +9,7 @@ valid_years = []
 for x in range (0,50):
     younger_age = (current_year - younger_birth)
     older_age = (current_year - older_birth)
-    if (( younger_age *2 )-14 >= older_age):
+    if (( older_age/2 )+7 <= younger_age):
         valid_years.append(current_year)
     current_year+=1
 
